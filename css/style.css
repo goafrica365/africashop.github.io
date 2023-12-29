@@ -1155,3 +1155,19 @@ h1, h2, h3, h4, h5,
   text-decoration: none;
   cursor: pointer;
 }
+/* 為小於等於600px寬的裝置設定樣式 */
+@media (max-width: 600px) {
+  .modal-content {
+    width: 90%; /* 調整模態的寬度 */
+    margin: 10% auto; /* 增加上下的邊距以避免貼近邊緣 */
+  }
+  /* 可以加入更多針對手機屏幕調整的CSS樣式 */
+}
+
+/* 可以針對更多不同的屏幕尺寸添加媒體查詢 */
+@media (max-width: 480px) {
+  .modal-content {
+    width: 95%; /* 對更小的屏幕進行調整 */
+    /* 其他適合小屏手機的樣式調整 */
+  }
+}
