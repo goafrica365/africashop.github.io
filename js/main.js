@@ -13,25 +13,7 @@ jQuery(document).ready(function($) {
 	  
 		// ... 省略了其他代碼以保持清晰 ...
 	  
-		// 新增的彈窗代碼
-		var modal = $('#myModal'),
-			modalClose = $('.close', modal);
-	  
-		modal.show(); // 顯示模態窗口
-	  
-		modalClose.on('click', function() {
-		  modal.hide(); // 點擊關閉按鈕時隱藏模態窗口
-		});
-	  
-		$(window).on('click', function(event) {
-		  if ($(event.target).is(modal)) {
-			modal.hide(); // 點擊模態窗口外部時隱藏模態窗口
-		  }
-		});
-	  
-		// ... 省略了其他代碼以保持清晰 ...
-	  
-	  });
+		
 	  
 	
 
