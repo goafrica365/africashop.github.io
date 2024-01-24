@@ -27,12 +27,22 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M5ZL938EBB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-M5ZL938EBB');
+  </script>
 
 </head>
 
 <body>
-
   <div class="site-wrap">
 
     <div class="site-mobile-menu site-navbar-target">
@@ -44,33 +54,29 @@
       <div class="site-mobile-menu-body"></div>
     </div>
 
-
-    <header class="site-navbar py-4" role="banner">
-
-      <div class="container">
-        <div class="d-flex align-items-center">
-          <div class="site-logo">
-            <a href="index.html">
-              <img src="images/logo.png" alt="Logo">
-            </a>
-          </div>
-          <div class="ml-auto">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="matches.html" class="nav-link">Matches</a></li>
-                <li><a href="players.html" class="nav-link">Players</a></li>
-                <li><a href="blog.html" class="nav-link">Blog</a></li>
-              
-              </ul>
-            </nav>
-
-            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right text-white"><span
-                class="icon-menu h3 text-white"></span></a>
+    <header class="site-navbar" role="banner">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white" id="mainNav">
+        <div class="container px-4 px-lg-5">
+          <a href=".">
+            <img src="images/logo.png" alt="Logo">
+          </a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active font-weight-bold"><a class="nav-link" href="." title="Africa365">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="matches.html" title="Africa365">Matches</a></li>
+              <li class="nav-item"><a class="nav-link" href="players.html" title="Promotion">Players</a></li>
+              <li class="nav-item"><a class="nav-link" href="blog.html" title="Terms and Conditions">Blog</a></li>
+            </ul>
           </div>
         </div>
-      </div>
-
+      </nav>
     </header>
 
     <div class="hero overlay" style="background-image: url('images/bg_3.jpg');">
@@ -78,27 +84,28 @@
         <div class="row align-items-center">
           <div class="col-lg-5 ml-auto">
             <h1 class="text-white">Africa Cup of Nations Event</h1>
-            <p>This tournament is the premier national team competition in African football, organized by the Confederation of African Football (CAF). </p>
+            <p>This tournament is the premier national team competition in African football, organized by the
+              Confederation of African Football (CAF). </p>
             <div id="date-countdown"></div>
             <p>
-    
-            <a href="https://www.africa365.com/sports" class="btn btn-primary py-3 px-4 mr-3">Best Prediction</a>
 
-              <a href="#" class="more light">Learn More</a>
-            </p>  
+              <a href="https://www.africa365.com/sports" class="btn btn-primary py-3 px-4 mr-3">Best Prediction</a>
+
+              <a href="https://www.africa365.com" class="more light">Learn More</a>
+            </p>
           </div>
         </div>
       </div>
     </div>
 
-    
-    
+
+
     <div class="container">
-      
+
 
       <div class="row">
         <div class="col-lg-12">
-          
+
           <div class="d-flex team-vs">
             <span class="score">- - -</span>
             <div class="team-1 w-50">
@@ -129,7 +136,7 @@
         </div>
       </div>
     </div>
-  
+
 
     <div class="latest-news">
       <div class="container">
@@ -157,7 +164,7 @@
                     </div>
                   </div>
                 </div>
-              </div> 
+              </div>
             </div>
           </div>
           <div class="col-md-4">
@@ -178,7 +185,7 @@
                     </div>
                   </div>
                 </div>
-              </div> 
+              </div>
             </div>
           </div>
           <div class="col-md-4">
@@ -199,14 +206,14 @@
                     </div>
                   </div>
                 </div>
-              </div> 
+              </div>
             </div>
           </div>
         </div>
 
       </div>
     </div>
-    
+
     <div class="site-section bg-dark">
       <div class="container">
         <div class="row">
@@ -246,7 +253,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            
+
             <div class="widget-next-match">
               <table class="table custom-table">
                 <thead>
@@ -341,9 +348,9 @@
           </div>
           <div class="col-6 text-right">
             <div class="custom-nav">
-            <a href="#" class="js-custom-prev-v2"><span class="icon-keyboard_arrow_left"></span></a>
-            <span></span>
-            <a href="#" class="js-custom-next-v2"><span class="icon-keyboard_arrow_right"></span></a>
+              <a href="#" class="js-custom-prev-v2"><span class="icon-keyboard_arrow_left"></span></a>
+              <span></span>
+              <a href="#" class="js-custom-next-v2"><span class="icon-keyboard_arrow_right"></span></a>
             </div>
           </div>
         </div>
@@ -452,7 +459,7 @@
               <h3 class="mb-4"><a href="#">TotalEnergies AFCON 2023: Senegal seek to retain title</a></h3>
               <p>The Lions of Teranga will be defending their title
                 Senegal are in Group C with Cameroon, Gambia..
-                </p>
+              </p>
               <p><a href="#">Read more</a></p>
             </div>
           </div>
@@ -465,7 +472,8 @@
             <div class="text">
               <span class="meta">Dec 17, 2023</span>
               <h3 class="mb-4"><a href="#">TotalEnergies AFCON 2023: Senegal seek to retain title</a></h3>
-              <p>Senegal has a new mission and aims to relive the emotion of that memorable night on February 6, 2022, still resonating in the minds of Teranga Lions' supporters.</p>
+              <p>Senegal has a new mission and aims to relive the emotion of that memorable night on February 6, 2022,
+                still resonating in the minds of Teranga Lions' supporters.</p>
               <p><a href="#">Read more</a></p>
             </div>
           </div>
@@ -473,16 +481,16 @@
       </div>
     </div>
 
-<!-- 模態彈窗的HTML -->
-<div id="myModal" class="modal">
-  <!-- 模態內容 -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <a href="https://www.africa365.com/register">
-      <img src="images/popup.jpeg" alt="Register Now">
-    </a>
-  </div>
-</div>
+    <!-- 模態彈窗的HTML -->
+    <div id="myModal" class="modal">
+      <!-- 模態內容 -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <a href="https://www.africa365.com/register">
+          <img src="images/popup.jpeg" alt="Register Now">
+        </a>
+      </div>
+    </div>
 
     <footer class="footer-section">
       <div class="container">
@@ -495,7 +503,7 @@
                 <li><a href="#">Club News</a></li>
                 <li><a href="#">Media Center</a></li>
                 <li><a href="#">Video</a></li>
-            
+
               </ul>
             </div>
           </div>
@@ -503,7 +511,7 @@
             <div class="widget mb-3">
               <h3>Promotion</h3>
               <ul class="list-unstyled links">
-            
+
               </ul>
             </div>
           </div>
@@ -542,8 +550,9 @@
                 Copyright &copy;
                 <script>
                   document.write(new Date().getFullYear());
-                </script> All rights reserved |Best Online Sport Betting| Live Betting Odds in Nigeria <i class="icon-sport"
-                  aria-hidden="true"></i> by <a href="https://www.africa365.com" target="_blank">africa365</a>
+                </script> All rights reserved |Best Online Sport Betting| Live Betting Odds in Nigeria <i
+                  class="icon-sport" aria-hidden="true"></i> by <a href="https://www.africa365.com"
+                  target="_blank">africa365</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
             </div>
